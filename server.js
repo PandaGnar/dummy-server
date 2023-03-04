@@ -8,7 +8,6 @@ const server = http.createServer((req, res) => {
   res.end(message);
 });
 
-// note the port, hostname order
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname()}:${port}/`);
 });
